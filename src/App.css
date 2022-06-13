@@ -60,3 +60,20 @@ button {
   border: 0;
   cursor: pointer;
 }
+
+.imagefund {
+  width: 50%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.twittericonwhite {
+  width: 50%;
+  max-width: 30px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
