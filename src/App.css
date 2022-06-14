@@ -79,6 +79,8 @@ button {
   font-weight: 700;
   border: 0;
   cursor: pointer;
+  font-family: 'NeuePower-Regular';
+  font-size: 20px;
 }
 
 .imagefund {
