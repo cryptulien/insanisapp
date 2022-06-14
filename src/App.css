@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;400;700&display=swap');
+@font-face {
+  font-family: 'NeuePower-Light';
+    src: url('fonts/NeuePower-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'NeuePower-Medium';
+    src: url('fonts/NeuePower-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'NeuePower-Regular';
+    src: url('fonts/NeuePower-Regular-qo7lrz.woff') format('woff');
+}
+@font-face {
+  font-family: 'NeuePower-Ultra';
+    src: url('fonts/NeuePower-Ultra.woff') format('woff');
+}
 
 .App {
   text-align: center;
@@ -40,8 +56,9 @@ body {
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'NeuePower-Regular';
   color: rgb(255, 255, 255);
+  font-size: 200px;
 }
 
 .count {
@@ -65,7 +82,7 @@ button {
 }
 
 .imagefund {
-  width: 50%;
+  width: 80%;
   max-width: 960px;
   margin: 0 auto;
   padding-left: 1rem;
@@ -79,4 +96,12 @@ button {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
+}
+
+.title {
+  width: 50%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
